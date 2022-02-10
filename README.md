@@ -6,7 +6,7 @@ gradle multi-project
 
 <pre>
 :vaadin-visjs-dot-component (root-project)
-    :lib (contains VisJsDotComponent.java)
+    :lib (contains VisJsDotComponent.java, build a jar to use in your project)
     :example-webapp (uses :lib)
 </pre>
    
